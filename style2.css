@@ -1015,6 +1015,48 @@ button:focus-visible {
         left: 575px;
         font-size: 57px;
         text-align: right;
+    }
 
+    .Quem-Somos .Box-Trio-Container{
+        width: 10%;
+        left: 625px;
+    }
+
+    .Quem-Somos .Box-Trio {
+        width: 431px;
+        height: 727px;
+    }
+
+    .Quem-Somos .Tom-Voz-Titulo {
+        left: 25px;
+        font-size: 60px;
+    }
+
+    .Quem-Somos .Box-Texto-1 {
+        left: -10px;
+        font-size: 50px;
+    }
+
+    .Quem-Somos .Objetvio-Titulo {
+        left: 70px;
+        font-size: 60px;
+    }
+    
+    .Quem-Somos .Box-Texto-2 {
+        left: -10px;
+        font-size: 47px;
+    }
+
+    .Quem-Somos .Origem-Titulo {
+        left: 85px;
+        font-size: 60px;
+    }
+
+    .Servicos .Servicos-Titulo {
+        left: 175px;
+    }
+
+    .Servicos .Servicos-Detalhe-Container {
+        left: 40px;
     }
 }
