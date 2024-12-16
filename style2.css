@@ -1,0 +1,1020 @@
+body{
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+    .Inicio .Inicio-Fundo-Foto {
+        width: 100%;
+        height: 1434px;
+        background-image: url(./img/Fundo.png);
+        background-size: cover;
+    }
+
+    .Inicio .Delta-Conecta-Logo {
+        position: relative;
+        width: 394px;
+        height: 145px;
+        top: 45px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .Inicio .Inicio-Texto-1 {
+        position: absolute;
+        top: 900px;
+        left: 139px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        color: #034873;
+        font-size: 80px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .Inicio .Action-Button {
+        position: absolute;
+        width: 459px;
+        height: 122px;
+        top: 1244px;
+        left: 139px;
+    }
+
+    .Inicio .Action-Button-Box {
+        position: absolute;
+        width: 457px;
+        height: 122px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        box-shadow: var(--sombra-externa-1);
+    }
+
+    .Inicio .Action-Button-Texto {
+        position: absolute;
+        width: 345px;
+        top: 20px;
+        left: 56px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 700;
+        color: #000000;
+        font-size: 52px;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .Quem-Somos .Quem-Somos-Fundo {
+        position: relative;
+        width: 100%;
+        height: 3122px;
+        background-image: url(./img/Quem\ Somos\ -\ Fundo.svg);
+    }
+
+    .Quem-Somos .Quem-Somos-Titulo {
+        position: relative;
+        top: 109px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 600;
+        color: var(--laranja-2);
+        font-size: 130px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Quem-Somos .Quem-Somos-Box {
+        top: 340px;
+        overflow: hidden;
+        max-width: 1920px;  
+    }
+
+    .Quem-Somos .Gauss-1 {
+        position: relative;
+        width: 416px;
+        height: 910px;
+        top: 950px;
+    }
+
+    .Quem-Somos .Vetor-1 {
+        position: relative;
+        width: 304px;
+        height: 623px;
+        top: 964px;
+        left: 1580px;
+        display: block;
+    }
+
+    .Quem-Somos .Box-Historia {
+        position: relative;
+        width: 100%;
+        height: 1798px;
+        top: -1200px;
+    }
+
+    .Quem-Somos .Box-Historia-Origem {
+        position: relative;
+        width: 100%;
+        height: 834px;
+        top: 0;
+        left: 0;
+    }
+
+    .Quem-Somos .Box-Origem-Foto {
+        position: relative;
+        width: 813px;
+        height: 844px;
+        left: 831px;
+        object-fit: contain;
+    }
+
+    .Quem-Somos .Box-Origem-Titulo {
+        position: absolute;
+        width: 813px;
+        height: 209px;
+        top: 0;
+        left: 30px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 700;
+        color: var(--laranja-2);
+        font-size: 90px;
+        letter-spacing: -3.75px;
+        line-height: 140px;
+    }
+
+    .Quem-Somos .Box-Origem-Texto {
+        position: absolute;
+        width: 804px;
+        top: 250px;
+        left: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: var(--azul-2);
+        font-size: 65px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .Quem-Somos .Box-Historia-Missao {
+        position: relative;
+        width: 1646px;
+        height: 834px;
+        top: 300px;
+        left: 0;
+    }
+
+    .Quem-Somos .Box-Missao-Foto {
+        position: relative;
+        width: 813px;
+        height: 844px;
+        top: 0;
+        left: 30px;
+        object-fit: contain;
+    }
+
+    .Quem-Somos .Box-Missao-Titulo {
+        position: absolute;
+        width: 804px;
+        height: 209px;
+        top: 13px;
+        left: 838px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 700;
+        color: var(--laranja-2);
+        font-size: 90px;
+        text-align: right;
+        letter-spacing: -3.75px;
+        line-height: 140px;
+    }
+
+    .Quem-Somos .Box-Missao-Texto {
+        position: absolute;
+        width: 804px;
+        top: 250px;
+        left: 838px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: var(--azul-2);
+        font-size: 65px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .Quem-Somos .Box-Trio-Container{
+        position: relative;
+        top: -900px;
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+    }
+
+    .Quem-Somos .Box-Trio {
+        position: relative;
+        width: 531px;
+        height: 747px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: var(--sombra-externa-1);
+    }
+
+    .Quem-Somos .Tom-Voz-Titulo {
+        position: absolute;
+        top: 30px;
+        left: 33px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 600;
+        color: var(--laranja-2);
+        font-size: 70px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .Quem-Somos .Box-Texto-1 {
+        position: absolute;
+        width: 457px;
+        top: 150px;
+        left: 42px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: var(--azul-2);
+        font-size: 52px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .Quem-Somos .Objetvio-Titulo {
+        position: absolute;
+        top: 30px;
+        left: 81px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 600;
+        color: var(--laranja-2);
+        font-size: 70px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+    
+    .Quem-Somos .Box-Texto-2 {
+        position: absolute;
+        width: 457px;
+        top: 150px;
+        left: 37px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        color: var(--azul-2);
+        font-size: 52px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .Quem-Somos .Origem-Titulo {
+        position: absolute;
+        top: 30px;
+        left: 120px;
+        font-family: "MuseoModerno", sans-serif;
+        font-weight: 600;
+        color: var(--laranja-2);
+        font-size: 70px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .Servicos .Servicos-Box {
+        overflow-x: hidden;
+    }
+
+    .Servicos .Servicos-Fundo {
+        position: absolute;
+        width: 100%;
+        height: 5239px;
+        background-image: url(./img/Quem\ Somos\ -\ Fundo.svg);
+        z-index: -1;
+        overflow: hidden;
+    }
+
+
+    .Servicos .Servicos-Titulo {
+    position: relative;
+    top: -700px;
+    right: 200px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: var(--laranja-2);
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Servicos-Detalhe-Container {
+    position: relative;
+    left: 200px;
+    top: -500px;
+}
+
+.Servicos .Ranking-Container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Servicos .Gauss-2 {
+    position: relative;
+    width: 491px;
+    height: 1192px;
+    top: 0;
+    left: 1429px;
+    object-fit: cover;
+}
+
+.Servicos .Servicos-Detalhe-Box-1 {
+    position: relative;
+    width: 1311px;
+    height: 255px;
+    background-color: var(--laranja-2);
+    border-radius: 30px;
+    box-shadow: var(--sombra-externa-1);
+}
+
+.Servicos .Servicos-Detalhe-Box-1 #Ranking-Icon {
+    top: 52px;
+    left: 38px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "FontAwesome";
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Ranking-Titulo {
+    position: absolute;
+    width: 277px;
+    top: 20px;
+    left: 278px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Ranking-Texto {
+    position: absolute;
+    width: 874px;
+    top: 80px;
+    left: 277px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Servicos .Premio-Containter {
+    position: relative;
+    top: 55px;
+    left: 53px;
+}
+
+.Servicos .Servicos-Detalhe-Box-2 {
+    background-color: var(--azul-5);
+    position: relative;
+    width: 1311px;
+    height: 255px;
+    border-radius: 30px;
+    box-shadow: var(--sombra-externa-1);
+}
+
+.Servicos .Premio-Containter i {
+    top: 54px;
+    left: 1082px;
+    color: #ffffff;
+    position: absolute;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Premio-Titulo {
+    position: absolute;
+    width: 260px;
+    top: 20px;
+    left: 774px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Servicos-Texto-1 {
+    position: absolute;
+    width: 968px;
+    top: 80px;
+    left: 66px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Servicos .Progresso-Container {
+    position: relative;
+    top: 110px;
+    left: 0;
+}
+
+.Servicos .Servicos-Detalhe-Box-3 {
+    background-color: #ffffff;
+    position: relative;
+    width: 1311px;
+    height: 255px;
+    border-radius: 30px;
+    box-shadow: var(--sombra-externa-1);
+}
+
+.Servicos .Servicos-Detalhe-Box-3 #Progresso-Icon {
+    top: 55px;
+    left: 63px;
+    color: #000000;
+    position: absolute;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Progresso-Titulo {
+    position: absolute;
+    width: 365px;
+    top: 20px;
+    left: 277px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Progresso-Texto {
+    position: absolute;
+    width: 943px;
+    top: 80px;
+    left: 277px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Servicos .Avatar-Container {
+    position: relative;
+    top: 165px;
+    left: 53px;
+}
+
+.Servicos .Avatar-Container #Avatar-Icon {
+    top: 53px;
+    left: 1073px;
+    color: #ffffff;
+    position: absolute; 
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Avatar-Titulo {
+    position: absolute;
+    width: 215px;
+    top: 20px;
+    left: 825px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Noticia-Container {
+    position: relative;
+    top: 220px;
+    left: 0;
+}
+
+.Servicos .Noticia-Container #Noticia-Icon {
+    top: 51px;
+    left: 63px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Noticia-Titulo {
+    position: absolute;
+    width: 253px;
+    top: 20px;
+    left: 278px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Noticia-Texto {
+    position: absolute;
+    width: 963px;
+    top: 80px;
+    left: 277px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Servicos .Saude-Container {
+    position: relative;
+    top: 275px;
+    left: 53px;
+}
+
+.Servicos .Saude-Container i {
+    top: 55px;
+    left: 1064px;
+    color: #000000;
+    position: absolute;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    content: "\f481";
+}
+
+.Servicos .Saude-Titulo {
+    position: absolute;
+    width: 331px;
+    top: 20px;
+    left: 703px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 60px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Servicos .Saude-Texto {
+    position: absolute;
+    width: 943px;
+    top: 80px;
+    left: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Depoimentos .Depoimentos-Container {
+    position: relative;
+}
+
+.Depoimentos .Depoimentos-Titulo {
+    position: absolute;
+    width: 586px;
+    top: -100px;
+    left: 550px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: var(--laranja-2);
+    font-size: 90px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Depoimentos .Depoimento-Joao-Container {
+    position: relative;
+    top: 280px;
+    left: 20px;
+}
+
+.Depoimentos .Depoimento-Box {
+    position: relative;
+    width: 809px;
+    height: 585px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: var(--sombra-externa-1);
+}
+
+.Depoimentos .Depoimento-Foto {
+    position: absolute;
+    width: 188px;
+    height: 218px;
+    top: 48px;
+    left: 31px;
+    object-fit: cover;
+}
+
+.Depoimentos .Depoimento-Joao-Nome {
+    position: absolute;
+    width: 298px;
+    top: 48px;
+    left: 246px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.Depoimentos .Depoimento-Joao-Profissao {
+    position: absolute;
+    width: 457px;
+    top: 143px;
+    left: 254px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Depoimentos .Depoimento-Texto {
+    position: absolute;
+    width: 725px;
+    top: 293px;
+    left: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+.Depoimentos .Depoimento-Carla-Container {
+    position: relative;
+    top: -300px;
+    left: 1050px;
+}
+
+.Depoimentos .Depoimento-Carla-Nome {
+    position: absolute;
+    width: 408px;
+    top: 48px;
+    left: 251px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.Depoimentos .Depoimento-Carla-Profissao {
+    position: absolute;
+    width: 416px;
+    top: 143px;
+    left: 254px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Saiba-Mais .Saiba-Mais-Container {
+    position: relative;
+    top: -700px;
+    left: 0;
+}
+
+.Saiba-Mais .Saiba-Mais-Titulo-1 {
+    position: absolute;
+    width: 1059px;
+    top: 488px;
+    left: 20px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 700;
+    color: var(--laranja-2);
+    font-size: 170px;
+    letter-spacing: 0;
+    line-height: 185px;
+}
+
+.Saiba-Mais .Saiba-Mais-Titulo-2 {
+    position: absolute;
+    width: 1059px;
+    top: 900px;
+    left: 20px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 700;
+    color: var(--laranja-2);
+    font-size: 170px;
+    letter-spacing: 0;
+    line-height: 185px;
+}
+
+.Saiba-Mais .Saiba-Mais-T2-Texto-2 {
+    font-size: 165px;
+}
+
+.Saiba-Mais .Experimente {
+    position: absolute;
+    width: 504px;
+    height: 1060px;
+    top: 500px;
+    left: 1305px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    box-shadow: var(--sombra-externa-1);
+}
+
+.Saiba-Mais .Experimente-Texto {
+    position: absolute;
+    width: 392px;
+    left: 61px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 50px;
+}
+
+.Saiba-Mais .Experimente-T1 {
+    font-weight: 600;
+}
+
+.Saiba-Mais .Experimente-T3 {
+    position: absolute;
+    width: 122px;
+    top: 750px;
+    left: 190px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.Saiba-Mais .Experimente-Botao {
+    position: relative;
+    width: 557px;
+    height: 182px;
+    top: 906px;
+    left: 70px;
+}
+
+.Saiba-Mais .Experimente-Botao-Box {
+    position: absolute;
+    width: 385px;
+    height: 112px;
+    background-color: var(--azul-5);
+    border-radius: 35px;
+}
+
+.Saiba-Mais .Experimente-Botao-Texto {
+    position: absolute;
+    width: 490px;
+    top: 5px;
+    left: -55px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+.Footer-Final .Footer-Retangulo {
+    position: relative;
+    width: 1364px;
+    height: 165px;
+    top: 1126px;
+    left: 250px;
+    background-color: #ffffff;
+    border-radius: 70px 70px 0px 0px;
+    border: 8px solid;
+    border-color: linear-gradient(to bottom, rgb(237, 117, 17), rgb(59, 71, 151)),1;
+}
+
+.Footer-Final .Footer-Texto {
+    position: relative;
+    width: 961px;
+    top: 950px;
+    left: 450px;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 1920px) {
+    .Quem-Somos .Quem-Somos-Fundo {
+        position: relative;
+        width: 100%;
+        height: 3122px;
+        background-image: url(./img/Quem\ Somos\ -\ Fundo.svg);
+    }
+
+    .Inicio .Inicio-Texto-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .Quem-Somos .Box-Historia-Origem {
+        left: 279px;
+    }
+
+    .Quem-Somos .Box-Missao-Foto {
+        object-fit: none;
+    }
+
+    .Quem-Somos .Vetor-1 {
+        opacity: 0%;
+    }
+
+    .Quem-Somos .Box-Historia-Missao {
+        left: 271px;
+    }
+
+    .Servicos .Gauss-2 {
+        opacity: 0%;
+    }
+
+    .Servicos .Servicos-Titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        left: 10px;
+    }
+
+    .Servicos .Servicos-Detalhe-Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        left: 600px;
+    }
+
+    .Depoimentos .Depoimentos-Container {
+        position: relative;
+        left: 400px;   
+    }
+
+    .Depoimentos .Depoimento-Joao-Container {
+        left: -250px;
+    }
+
+    .Depoimentos .Depoimento-Carla-Container {
+        left: 1150px;
+    }
+
+    .Saiba-Mais .Saiba-Mais-Container {
+        top: -600px;
+        left: 100px;
+    }
+
+    .Saiba-Mais .Saiba-Mais-Titulo-2 {
+        top: 1200px;
+    }
+
+    .Saiba-Mais .Experimente {
+        left: 1750px;
+    }
+
+    .Footer-Final .Footer-Fundo {
+        position: relative;
+        width: 100%;
+        height: 180px;
+        background-color: var(--branco-1);
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        top: 1200px;
+    }
+
+    .Footer-Final .Footer-Retangulo {
+        top: 1018px;
+        left: 550px;
+    }
+
+    .Footer-Final .Footer-Texto {
+        top: 835px;
+        left: 750px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1919px) {
+    .Quem-Somos .Box-Historia-Origem {
+        width: 50%;
+        height: 50%;
+    }
+
+    .Quem-Somos .Box-Origem-Foto {
+        position: relative;
+        width: 690px;
+        height: 721px;
+        left: 720px;
+        object-fit: contain;
+    }
+
+
+    .Quem-Somos .Box-Origem-Titulo {
+        font-size: 85px;
+        line-height: 120px;
+    }
+
+    .Quem-Somos .Box-Origem-Texto {
+        font-size: 57px;
+    }
+
+    .Quem-Somos .Box-Missao-Foto {
+        position: relative;
+        width: 690px;
+        height: 721px;
+        left: 20px;
+        object-fit: contain;
+    }
+
+    .Quem-Somos .Box-Missao-Titulo {
+        left: 575px;
+        font-size: 85px;
+        line-height: 120px;
+    }
+
+    .Quem-Somos .Box-Missao-Texto {
+        left: 575px;
+        font-size: 57px;
+        text-align: right;
+
+    }
+}
